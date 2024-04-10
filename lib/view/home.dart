@@ -35,7 +35,7 @@ class _Home extends State<Home> {
     );
 
     if (result != null) {
-      await setFiles(result.files.cast<XFile>());
+      await setFiles(result.xFiles);
     }
   }
 
